@@ -1,3 +1,4 @@
+// Logica do jogo
 let game = {
 
     lockMode: false,
@@ -108,6 +109,7 @@ let game = {
         }
 
     },
+    // função de girar a carta
     flipCard: function(cardId,gameOverCallBack, noMatchCallback){
         if (this.setCard(cardId)) {
             if (this.secondCard) {
